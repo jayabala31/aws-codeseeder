@@ -11,7 +11,7 @@ phases:
     #If you use the Ubuntu standard image 2.0 or later, you must specify runtime-versions.
     #If you specify runtime-versions and use an image other than Ubuntu standard image 2.0, the build fails.
     runtime-versions:
-       python: 3.7
+       python: 3.10
     #commands:
       # - There are no build commands
   pre_build:
