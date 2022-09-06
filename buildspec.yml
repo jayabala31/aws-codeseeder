@@ -20,7 +20,7 @@ phases:
       - pip install -e .
   build:
     commands:
-      - pytest tests/test_decorators.py
+      #- pytest tests/test_decorators.py
       #- pytest tests/integration/ -rfs
   post_build:
     commands:
